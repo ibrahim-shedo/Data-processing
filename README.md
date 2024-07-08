@@ -1,4 +1,5 @@
 #This README document guides users through the preparation of a dataset for machine learning modeling,
+
 focusing on the "life expectancy data.csv" dataset. The process encompasses several critical steps, including library imports, data reading, initial checks, exploratory data analysis (EDA), handling missing values, and encoding categorical data. This structured approach ensures that the dataset is clean, well-understood, and ready for further analysis or model training.
 
 Author & Date
@@ -55,6 +56,7 @@ dummy = pd.get_dummies(data=df, columns=["Country", "Status"], drop_first=True)
 print(dummy)
 
 #Notes
+
 Ensure all required libraries are installed before running the script.
 The dataset "life expectancy data.csv" should be in the same directory as the script or provide the correct path to the file.
 Warnings are suppressed in the script for cleaner output, but it's recommended to review them in a real-world scenario.
